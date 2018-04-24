@@ -1,9 +1,9 @@
-import { gpio } from './gpio'
-import env from 'common-env';
+import { gpio } from './mock/gpio'
+import env from 'common-env'
 
 var config = env().getOrElseAll({
     node: {
-        env: "development"
+        env: 'development'
     }
 })
 
